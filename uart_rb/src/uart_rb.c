@@ -1,7 +1,4 @@
 #include <uart_rb.h>
-#include <cmsis_os.h>
-
-#include <stdio.h>
 
 static uart_rb_err_t uart_rb_tx_transfer(uart_rb_t *uart_rb)
 {
