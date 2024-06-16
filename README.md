@@ -6,6 +6,8 @@ This library is made for implementing two ring buffers and DMA on both tx and rx
 
 ### Usage
 
+EDIT: In cubemx, project configuration, code generator, user must check the generate multiple files for each peripheral, because the usart.h header file is needed.
+
 There is a self explainatory example called "simple", which reads incoming data on uart1 and logs on uart2, look at the contents of the main function, after mx initialization and copy the setup code, adapting it to user preferences.
 
 The library requires some cubemx setup for each uart that the user may want to use, this is a checklist:
