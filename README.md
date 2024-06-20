@@ -26,6 +26,8 @@ The library requires some cubemx setup for each uart that the user may want to u
 
 Everything cubemx related is ready, now the library should work.
 
+PLEASE READ the library CMakeLists.txt
+
 ## Disclaimer:
 
 This is still a very early version of the library, better documentation and better code will come in the future, so if you find a bug, please report it.
